@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 02 Oct 2011 08:23:40 PM CDT
+EESchema Schematic File Version 2  date Sun 02 Oct 2011 08:29:38 PM CDT
 LIBS:power,/home/noah/Documents/freeems/preludelinux/PCB-modules/jbperf/vr_jbperf,./freeEMS_lib,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves
 EELAYER 43  0
 EELAYER END
