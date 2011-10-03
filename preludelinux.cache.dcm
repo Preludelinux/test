@@ -1,0 +1,22 @@
+EESchema-DOCLIB  Version 2.0  Sun 02 Oct 2011 08:29:38 PM CDT
+#
+$CMP 74LS86_freeEMS
+D Quad XOR 2 inputs
+K TTL XOR2
+F 74xx/74ls86.pdf
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP PIP-3104
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library
