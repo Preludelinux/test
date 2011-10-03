@@ -1,5 +1,5 @@
-EESchema Schematic File Version 2  date Mon 03 Oct 2011 12:01:36 PM CDT
-LIBS:power,/home/noah/Documents/freeems/preludelinux/PCB-modules/jbperf/vr_jbperf,./freeEMS_lib,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./preludelinux.cache
+EESchema Schematic File Version 2  date Mon 03 Oct 2011 01:19:46 PM CDT
+LIBS:power,./preludelinux,/home/noah/Documents/freeems/preludelinux/PCB-modules/jbperf/vr_jbperf,./freeEMS_lib,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./preludelinux.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
@@ -13,10 +13,62 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L IGBT Q?
+U 1 1 4E89FBD6
+P 950 1250
+F 0 "Q?" H 960 1420 60  0000 R CNN
+F 1 "IGBT" H 960 1100 60  0000 R CNN
+	1    950  1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IGBT Q?
+U 1 1 4E89FBCF
+P 1600 1250
+F 0 "Q?" H 1610 1420 60  0000 R CNN
+F 1 "IGBT" H 1610 1100 60  0000 R CNN
+	1    1600 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IGBT Q?
+U 1 1 4E89FBC9
+P 2250 1250
+F 0 "Q?" H 2260 1420 60  0000 R CNN
+F 1 "IGBT" H 2260 1100 60  0000 R CNN
+	1    2250 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IGBT Q?
+U 1 1 4E89FBBA
+P 2850 1250
+F 0 "Q?" H 2860 1420 60  0000 R CNN
+F 1 "IGBT" H 2860 1100 60  0000 R CNN
+	1    2850 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IGBT Q?
+U 1 1 4E89FBAF
+P 3500 1200
+F 0 "Q?" H 3510 1370 60  0000 R CNN
+F 1 "IGBT" H 3510 1050 60  0000 R CNN
+	1    3500 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IGBT Q?
+U 1 1 4E89FBA5
+P 4100 1250
+F 0 "Q?" H 4110 1420 60  0000 R CNN
+F 1 "IGBT" H 4110 1100 60  0000 R CNN
+	1    4100 1250
+	0    -1   -1   0   
+$EndComp
 Text Notes 7800 2400 0    60   ~ 0
 PORT T of TA Card
-Text Notes 550  600  0    60   ~ 0
-Find an IGBT to replace mosfet
 Text Notes 1350 2500 0    60   ~ 0
 COILS / IGBT   
 Text Notes 1100 4350 0    60   ~ 0
@@ -591,60 +643,6 @@ P 4650 1850
 F 0 "D?" H 4650 1950 50  0000 C CNN
 F 1 "LED" H 4650 1750 50  0000 C CNN
 	1    4650 1850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MOSFET_N Q?
-U 1 1 4E88F3F0
-P 4100 1250
-F 0 "Q?" H 4110 1420 60  0000 R CNN
-F 1 "MOSFET_N" H 4110 1100 60  0000 R CNN
-	1    4100 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MOSFET_N Q?
-U 1 1 4E88F3EE
-P 1600 1250
-F 0 "Q?" H 1610 1420 60  0000 R CNN
-F 1 "MOSFET_N" H 1610 1100 60  0000 R CNN
-	1    1600 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MOSFET_N Q?
-U 1 1 4E88F3EC
-P 950 1250
-F 0 "Q?" H 960 1420 60  0000 R CNN
-F 1 "IGBT" H 960 1100 60  0000 R CNN
-	1    950  1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MOSFET_N Q?
-U 1 1 4E88F3E9
-P 3500 1250
-F 0 "Q?" H 3510 1420 60  0000 R CNN
-F 1 "MOSFET_N" H 3510 1100 60  0000 R CNN
-	1    3500 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MOSFET_N Q?
-U 1 1 4E88F3E7
-P 2250 1250
-F 0 "Q?" H 2260 1420 60  0000 R CNN
-F 1 "MOSFET_N" H 2260 1100 60  0000 R CNN
-	1    2250 1250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MOSFET_N Q?
-U 1 1 4E88F3E0
-P 2850 1250
-F 0 "Q?" H 2860 1420 60  0000 R CNN
-F 1 "MOSFET_N" H 2860 1100 60  0000 R CNN
-	1    2850 1250
 	0    -1   -1   0   
 $EndComp
 $Comp
