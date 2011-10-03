@@ -1,0 +1,10 @@
+Hello Everyone 
+Preludelinux's layout for Port T of TA build of freeems.
+
+TO-DO
+check to see if what im doing is right.~
+Find IGBT for layout and replace mosfet_n with it.~
+Complete igbt ignition driver circuit.~
+Use ravage for other inputs and outputs.~
+Check to see if i can use power reg on TA card for its power use extra to power inputs/ouputs.~
+ 
