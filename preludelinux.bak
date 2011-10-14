@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 03 Oct 2011 01:32:24 PM CDT
+EESchema Schematic File Version 2  date Mon 03 Oct 2011 01:36:33 PM CDT
 LIBS:power,./preludelinux,/home/noah/Documents/freeems/preludelinux/PCB-modules/jbperf/vr_jbperf,./freeEMS_lib,device,transistors,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,opto,atmel,contrib,valves,./preludelinux.cache
 EELAYER 24  0
 EELAYER END
@@ -13,6 +13,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2850 5550
+Wire Wire Line
+	650  5550 3550 5550
+Wire Wire Line
+	3550 5550 3550 5700
 Wire Wire Line
 	1150 900  1150 1150
 Wire Wire Line
@@ -63,11 +68,6 @@ Wire Wire Line
 	4150 5550 3950 5550
 Wire Wire Line
 	1100 6700 750  6700
-Connection ~ 2900 5550
-Wire Wire Line
-	2900 5550 2850 5550
-Wire Wire Line
-	2850 5550 2850 5350
 Connection ~ 1600 5550
 Wire Wire Line
 	2200 5550 2200 5350
@@ -91,9 +91,9 @@ Wire Wire Line
 	11100 1850 10850 1850
 Connection ~ 3500 1850
 Wire Wire Line
-	3450 1850 4100 1850
+	3450 1850 3500 1850
 Wire Wire Line
-	4100 1850 4100 1450
+	4100 1450 4100 1850
 Connection ~ 2750 2550
 Wire Wire Line
 	3450 2550 2750 2550
@@ -208,18 +208,18 @@ Wire Wire Line
 Wire Wire Line
 	1600 1450 1600 2300
 Wire Wire Line
-	1600 2300 950  2300
+	1600 2300 1550 2300
 Wire Wire Line
-	1550 2300 3450 2300
+	950  2300 3450 2300
 Connection ~ 1550 2300
 Wire Wire Line
 	2850 1450 2850 2550
 Wire Wire Line
 	2850 2550 2250 2550
 Wire Wire Line
-	3500 1450 3500 1850
+	3500 1850 3500 1450
 Wire Wire Line
-	3500 1850 2950 1850
+	4100 1850 2950 1850
 Wire Wire Line
 	2950 1850 2950 2800
 Wire Wire Line
@@ -229,7 +229,7 @@ Wire Wire Line
 Wire Wire Line
 	11100 1950 10850 1950
 Wire Wire Line
-	4650 1550 4350 1550
+	4350 1550 4650 1550
 Wire Wire Line
 	4650 1650 4900 1650
 Wire Wire Line
@@ -239,16 +239,12 @@ Wire Wire Line
 Wire Wire Line
 	900  3350 900  4850
 Wire Wire Line
-	4450 5250 3750 5250
+	3750 5250 4450 5250
 Connection ~ 3950 5250
 Wire Wire Line
 	2400 3500 7250 3500
 Wire Wire Line
 	900  4850 1750 4850
-Wire Wire Line
-	4250 5550 4250 5800
-Wire Wire Line
-	4250 5800 4300 5800
 Connection ~ 750  7600
 Wire Wire Line
 	4150 7500 2350 7500
@@ -258,19 +254,11 @@ Wire Wire Line
 	1600 5550 1600 5150
 Connection ~ 700  5550
 Wire Wire Line
-	650  5550 3550 5550
-Connection ~ 2200 5550
-Wire Wire Line
-	3550 5550 3550 5700
-Wire Wire Line
-	3550 5700 4250 5700
-Connection ~ 4250 5700
-Wire Wire Line
-	2600 5350 2600 6700
+	2600 6700 2600 5350
 Wire Wire Line
 	2350 6650 2350 6700
 Wire Wire Line
-	1100 6950 1100 5150
+	1100 5150 1100 6950
 Connection ~ 1100 6700
 Connection ~ 2600 6650
 Wire Wire Line
@@ -309,6 +297,16 @@ Wire Wire Line
 	2450 900  2450 1150
 Wire Wire Line
 	1800 900  1800 1150
+Wire Wire Line
+	3550 5700 4250 5700
+Wire Wire Line
+	4250 5700 4250 5550
+Wire Wire Line
+	2850 5550 2850 5350
+Connection ~ 2200 5550
+NoConn ~ 5750 4200
+NoConn ~ 7000 4200
+NoConn ~ 7000 3900
 $Comp
 L GND #PWR?
 U 1 1 4E89FF83
@@ -570,15 +568,6 @@ F 1 "1k" V 750 7350 50  0000 C CNN
 $EndComp
 Text GLabel 600  7600 0    60   Input ~ 0
 12 VOLT ACC
-$Comp
-L GND #PWR?
-U 1 1 4E890A91
-P 4300 5800
-F 0 "#PWR?" H 4300 5800 30  0001 C CNN
-F 1 "GND" H 4300 5730 30  0001 C CNN
-	1    4300 5800
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R?
 U 1 1 4E88FEE1

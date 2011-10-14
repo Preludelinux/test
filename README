@@ -6,9 +6,10 @@ TO-DO
 
 2. *COMPLETED (edited MOSFET_N into IGBT) Find IGBT for layout and replace mosfet_n with it.~
 
-3. Complete igbt ignition driver circuit.~
+3. *Attempted ( check to see if correct) Complete igbt ignition driver circuit.~
 
-4. Use ravage for other inputs and outputs.~
+4. Copy ravage.pdf for other inputs and outputs.~
 
 5. Check to see if i can use power reg on TA card for its power use extra to power inputs/ouputs.~
+
  
